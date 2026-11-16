@@ -1,0 +1,6 @@
+{
+  "name": "Mumu's 15th Birthday Adventure",
+  "description": "An interactive magical 15th birthday adventure game created for Mumu by Nihan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
