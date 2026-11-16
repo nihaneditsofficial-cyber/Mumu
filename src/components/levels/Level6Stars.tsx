@@ -68,7 +68,7 @@ export const Level6Stars: React.FC<Level6StarsProps> = ({
           Level 6 · Star Collection
         </p>
         <h2 className="font-display mt-2 text-3xl font-bold text-white sm:text-4xl">
-          Mumu’s 15th Birthday Constellation
+          {PERSONALIZATION.name}’s {PERSONALIZATION.age}th Birthday Constellation
         </h2>
         <p className="mx-auto mt-2 max-w-xl text-sm text-purple-100/80 sm:text-base">
           Search the midnight sky and tap all 5 glowing stars to weave {PERSONALIZATION.name}’s

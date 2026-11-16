@@ -114,7 +114,7 @@ export const Level9Letter: React.FC<Level9LetterProps> = ({
           <div className="mb-5 flex flex-wrap items-center justify-between gap-3 border-b border-white/12 pb-4">
             <div className="flex items-center gap-2 text-xs font-semibold tracking-wider text-pink-200 uppercase">
               <MailOpen className="h-4 w-4" />
-              <span>15th Birthday Keepsake Letter</span>
+              <span>{PERSONALIZATION.age}th Birthday Keepsake Letter</span>
             </div>
             <div className="flex items-center gap-2">
               {!typingDone ? (

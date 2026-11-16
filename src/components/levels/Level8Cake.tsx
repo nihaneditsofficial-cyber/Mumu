@@ -11,7 +11,7 @@ interface Level8CakeProps {
   onUnlockBadge: (id: string) => void;
 }
 
-const TOTAL_CANDLES = PERSONALIZATION.age; // 15 candles for Mumu's 15th birthday!
+const TOTAL_CANDLES = PERSONALIZATION.age; // 16 candles for Mumu's 16th birthday!
 
 export const Level8Cake: React.FC<Level8CakeProps> = ({
   effectsRef,
@@ -49,9 +49,9 @@ export const Level8Cake: React.FC<Level8CakeProps> = ({
 
   const allLit = litCandles.length === TOTAL_CANDLES;
 
-  // Arrange 15 candles cleanly: 7 on top tier, 8 on wider middle tier
+  // Arrange 16 candles cleanly: 7 on top tier, 9 on wider bottom tier
   const topRow = Array.from({ length: 7 }, (_, i) => i);
-  const bottomRow = Array.from({ length: 8 }, (_, i) => i + 7);
+  const bottomRow = Array.from({ length: 9 }, (_, i) => i + 7);
 
   const renderCandle = (candleIdx: number) => {
     const isLit = litCandles.includes(candleIdx);
@@ -98,11 +98,11 @@ export const Level8Cake: React.FC<Level8CakeProps> = ({
         Level 8 · Birthday Cake
       </p>
       <h2 className="font-display mt-2 text-3xl font-bold text-white sm:text-4xl">
-        Light All 15 Candles for {PERSONALIZATION.name}
+        Light All {TOTAL_CANDLES} Candles for {PERSONALIZATION.name}
       </h2>
       <p className="mx-auto mt-2 max-w-xl text-sm text-purple-100/80 sm:text-base">
         {allLit
-          ? 'Every single candle is glowing! Make your sweetest 15th birthday wish!'
+          ? `Every single candle is glowing! Make your sweetest ${PERSONALIZATION.age}th birthday wish!`
           : 'Tap each candle on the cake to light it up and launch the birthday celebration.'}
       </p>
 
@@ -123,7 +123,7 @@ export const Level8Cake: React.FC<Level8CakeProps> = ({
           }`}
         />
 
-        {/* Cake Topper "15" */}
+        {/* Cake Topper "16" */}
         <div className="relative z-10 mb-1 flex h-12 w-16 items-center justify-center rounded-2xl border border-amber-200/60 bg-gradient-to-br from-amber-200 via-yellow-300 to-amber-500 text-slate-950 shadow-lg shadow-amber-400/30">
           <span className="font-display text-2xl font-bold">{PERSONALIZATION.age}</span>
         </div>
@@ -146,12 +146,12 @@ export const Level8Cake: React.FC<Level8CakeProps> = ({
             ))}
           </div>
           <p className="font-display mt-2 text-sm font-bold text-rose-950/80">
-            Happy 15th
+            Sweet {PERSONALIZATION.age}
           </p>
         </div>
 
-        {/* Lower Tier Candles (8) */}
-        <div className="relative z-10 -mt-3 -mb-1 flex items-end justify-center gap-1.5 sm:gap-3">
+        {/* Lower Tier Candles (9) */}
+        <div className="relative z-10 -mt-3 -mb-1 flex items-end justify-center gap-1 sm:gap-2.5">
           {bottomRow.map(renderCandle)}
         </div>
 
@@ -190,7 +190,7 @@ export const Level8Cake: React.FC<Level8CakeProps> = ({
             <span>Make a Wish, {PERSONALIZATION.name}!</span>
           </div>
           <p className="mt-2 text-sm text-purple-100/90 sm:text-base">
-            All 15 candles are shining bright for you! One final treasure awaits before the grand
+            All {TOTAL_CANDLES} candles are shining bright for you! One final treasure awaits before the grand
             finale—a secret letter written from the heart.
           </p>
           <div className="mt-5 flex flex-wrap items-center justify-center gap-3">

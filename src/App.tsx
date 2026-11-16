@@ -103,7 +103,7 @@ export default function App() {
     showToast(
       '🪄',
       `Secret Note from ${PERSONALIZATION.createdBy}`,
-      `“You deserve the happiest 15th birthday ever, ${PERSONALIZATION.name}!”`
+      `“You deserve the happiest ${PERSONALIZATION.age}th birthday ever, ${PERSONALIZATION.name}!”`
     );
   };
 

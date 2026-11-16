@@ -74,7 +74,7 @@ export const Level3Gifts: React.FC<Level3GiftsProps> = ({
           10 Magical Gifts for {PERSONALIZATION.name}
         </h2>
         <p className="mx-auto mt-2 max-w-xl text-sm text-purple-100/80 sm:text-base">
-          Unwrap every floating gift box to reveal 10 unique 15th birthday wishes—each with its own
+          Unwrap every floating gift box to reveal 10 unique {PERSONALIZATION.age}th birthday wishes—each with its own
           surprise sparkle!
         </p>
 

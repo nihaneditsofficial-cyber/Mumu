@@ -9,9 +9,9 @@ import {
 
 export const PERSONALIZATION = {
   name: 'Mumu',
-  age: 15,
+  age: 16,
   gender: 'Girl',
-  createdBy: 'Nihan',
+  createdBy: 'Your love, Nihan',
 } as const;
 
 export const LEVELS: LevelMeta[] = [
@@ -34,7 +34,7 @@ export const GIFT_ITEMS: GiftItem[] = [
     ribbonColor: 'bg-amber-200',
     effectType: 'hearts',
     title: 'Heartfelt Joy',
-    wish: 'May your 15th year wrap your days in gentle laughter, sweet surprises, and moments that make your heart smile.',
+    wish: 'May your 16th year wrap your days in gentle laughter, sweet surprises, and moments that make your heart smile.',
   },
   {
     id: 2,
@@ -58,7 +58,7 @@ export const GIFT_ITEMS: GiftItem[] = [
     ribbonColor: 'bg-yellow-200',
     effectType: 'butterflies',
     title: 'Graceful Growth',
-    wish: 'Turning 15 is a beautiful chapter of wings and wonder—may every new step feel exciting and proud.',
+    wish: 'Turning 16 is a beautiful chapter of wings and wonder—may every new step feel exciting and proud.',
   },
   {
     id: 5,
@@ -82,7 +82,7 @@ export const GIFT_ITEMS: GiftItem[] = [
     ribbonColor: 'bg-amber-100',
     effectType: 'sparkles',
     title: 'Creative Spark',
-    wish: 'Whether through art, stories, music, or laughter, may your creativity shine effortlessly at 15 and beyond.',
+    wish: 'Whether through art, stories, music, or laughter, may your creativity shine effortlessly at 16 and beyond.',
   },
   {
     id: 8,
@@ -98,7 +98,7 @@ export const GIFT_ITEMS: GiftItem[] = [
     ribbonColor: 'bg-yellow-100',
     effectType: 'confetti',
     title: 'Unforgettable Adventures',
-    wish: 'Here is to spontaneous ice cream runs, sunset playlists, and memories at 15 that you will treasure forever.',
+    wish: 'Here is to spontaneous ice cream runs, sunset playlists, and memories at 16 that you will treasure forever.',
   },
   {
     id: 10,
@@ -119,8 +119,8 @@ export const BUTTERFLY_MESSAGES: ButterflyMessage[] = [
   },
   {
     id: 2,
-    title: 'Sweet 15 Magic',
-    message: 'Fifteen looks absolutely wonderful on you—graceful, bright, and full of promise.',
+    title: 'Sweet 16 Magic',
+    message: 'Sixteen looks absolutely wonderful on you—graceful, bright, and full of promise.',
     accent: 'from-violet-400 to-purple-500',
   },
   {
@@ -156,7 +156,7 @@ export const BUTTERFLY_MESSAGES: ButterflyMessage[] = [
   {
     id: 8,
     title: 'Starlight Girl',
-    message: 'Nihan wishes you a 15th year overflowing with happy surprises and proud milestones!',
+    message: 'Your love, Nihan wishes you a 16th year overflowing with happy surprises and proud milestones!',
     accent: 'from-amber-400 to-rose-500',
   },
   {
@@ -185,7 +185,7 @@ export const BALLOON_COMPLIMENTS: string[] = [
   "You're one of a kind 🌼",
   'Enjoy every moment 🎉',
   'So proud of you, Mumu 🦋',
-  'Sweet 15 suits you 💕',
+  'Sweet 16 suits you 💕',
   'You bring so much joy 🌺',
   'Stay magical always 🪄',
 ];
@@ -203,7 +203,7 @@ export const STAR_WISHES: StarWish[] = [
     xPercent: 35,
     yPercent: 19,
     name: 'Star of Confidence',
-    message: 'Second wish: may you stand tall at 15, proud of who you are and excited for who you are becoming.',
+    message: 'Second wish: may you stand tall at 16, proud of who you are and excited for who you are becoming.',
   },
   {
     id: 3,
@@ -230,12 +230,12 @@ export const STAR_WISHES: StarWish[] = [
 
 export const TREASURE_WISHES: TreasureWish[] = [
   { id: 1, iconName: 'Sparkles', title: 'Radiant Mornings', wish: 'May every morning welcome you with calm energy and a reason to smile, Mumu.', glowColor: 'from-pink-500/30 to-rose-500/10' },
-  { id: 2, iconName: 'Crown', title: 'Queen of 15', wish: 'Step into fifteen like the graceful, bright young star you truly are.', glowColor: 'from-amber-400/30 to-yellow-500/10' },
+  { id: 2, iconName: 'Crown', title: 'Queen of 16', wish: 'Step into sixteen like the graceful, bright young star you truly are.', glowColor: 'from-amber-400/30 to-yellow-500/10' },
   { id: 3, iconName: 'Heart', title: 'Deeply Cherished', wish: 'Always remember how deeply loved and appreciated you are every single day.', glowColor: 'from-rose-500/30 to-pink-500/10' },
   { id: 4, iconName: 'Star', title: 'Guiding Light', wish: 'Let your kindness remain your brightest compass wherever life takes you.', glowColor: 'from-purple-500/30 to-indigo-500/10' },
   { id: 5, iconName: 'Sun', title: 'Golden Days', wish: 'Wishing you sunny afternoons, warm breezes, and carefree weekend laughter.', glowColor: 'from-orange-400/30 to-amber-500/10' },
   { id: 6, iconName: 'Music', title: 'Sweet Melodies', wish: 'May life always feel like your favorite song played at full volume.', glowColor: 'from-fuchsia-500/30 to-purple-500/10' },
-  { id: 7, iconName: 'Compass', title: 'Bold Adventures', wish: 'Never be afraid to explore new paths and try exciting things at 15.', glowColor: 'from-sky-400/30 to-blue-500/10' },
+  { id: 7, iconName: 'Compass', title: 'Bold Adventures', wish: 'Never be afraid to explore new paths and try exciting things at 16.', glowColor: 'from-sky-400/30 to-blue-500/10' },
   { id: 8, iconName: 'Flower2', title: 'Graceful Bloom', wish: 'Like a spring blossom, take your time and bloom into your happiest self.', glowColor: 'from-pink-400/30 to-rose-400/10' },
   { id: 9, iconName: 'BookOpen', title: 'Brilliant Mind', wish: 'May your curiosity open doors to wisdom, wonder, and proud achievements.', glowColor: 'from-indigo-400/30 to-violet-500/10' },
   { id: 10, iconName: 'Smile', title: 'Contagious Joy', wish: 'Your smile has a quiet magic that makes everyone around you happier.', glowColor: 'from-amber-300/30 to-rose-400/10' },
@@ -243,19 +243,19 @@ export const TREASURE_WISHES: TreasureWish[] = [
   { id: 12, iconName: 'Feather', title: 'Lightness of Heart', wish: 'May worries feel small and small joys feel wonderfully huge.', glowColor: 'from-violet-400/30 to-pink-500/10' },
   { id: 13, iconName: 'Camera', title: 'Picture-Perfect', wish: 'Here is to hundreds of candid photos filled with real laughter this year.', glowColor: 'from-rose-400/30 to-orange-400/10' },
   { id: 14, iconName: 'Moon', title: 'Peaceful Dreams', wish: 'May your nights be restful and filled with hopeful dreams for tomorrow.', glowColor: 'from-indigo-500/30 to-blue-600/10' },
-  { id: 15, iconName: 'Award', title: 'Sweet Victories', wish: 'Cheer loudly for every milestone—big or small—that you achieve at 15!', glowColor: 'from-yellow-400/30 to-amber-500/10' },
-  { id: 16, iconName: 'Palette', title: 'Colorful World', wish: 'Paint your 15th year with bold colors, creativity, and joyful expression.', glowColor: 'from-fuchsia-400/30 to-rose-500/10' },
+  { id: 15, iconName: 'Award', title: 'Sweet Victories', wish: 'Cheer loudly for every milestone—big or small—that you achieve at 16!', glowColor: 'from-yellow-400/30 to-amber-500/10' },
+  { id: 16, iconName: 'Palette', title: 'Colorful World', wish: 'Paint your 16th year with bold colors, creativity, and joyful expression.', glowColor: 'from-fuchsia-400/30 to-rose-500/10' },
   { id: 17, iconName: 'ShieldCheck', title: 'Healthy & Strong', wish: 'Wishing you vibrant health, endless energy, and strong spirits all year.', glowColor: 'from-emerald-400/30 to-teal-500/10' },
   { id: 18, iconName: 'Coffee', title: 'Cozy Moments', wish: 'Enjoy warm drinks, rainy-day movies, and peaceful afternoons just for you.', glowColor: 'from-amber-500/30 to-orange-500/10' },
   { id: 19, iconName: 'Rocket', title: 'Soaring Ambition', wish: 'Every goal you set for yourself is within reach—keep aiming high!', glowColor: 'from-purple-500/30 to-pink-500/10' },
   { id: 20, iconName: 'Rainbow', title: 'After Every Rain', wish: 'Even if a cloudy day appears, brighter rainbows are always waiting for you.', glowColor: 'from-sky-400/30 to-pink-400/10' },
-  { id: 21, iconName: 'Gift', title: 'Happy Surprises', wish: 'May unexpected good news find its way to you throughout your 15th year.', glowColor: 'from-rose-500/30 to-amber-400/10' },
+  { id: 21, iconName: 'Gift', title: 'Happy Surprises', wish: 'May unexpected good news find its way to you throughout your 16th year.', glowColor: 'from-rose-500/30 to-amber-400/10' },
   { id: 22, iconName: 'Flame', title: 'Inner Spark', wish: 'Keep that bright spark of enthusiasm alive in everything you love doing.', glowColor: 'from-orange-400/30 to-rose-500/10' },
   { id: 23, iconName: 'Globe', title: 'Wide Horizons', wish: 'The world is full of beautiful places waiting for you to see them someday.', glowColor: 'from-teal-400/30 to-sky-500/10' },
   { id: 24, iconName: 'Users', title: 'Warm Bonds', wish: 'May family and true friends always feel like your safest, happiest home.', glowColor: 'from-pink-400/30 to-purple-500/10' },
   { id: 25, iconName: 'Zap', title: 'Vibrant Energy', wish: 'Stay curious, playful, and full of positive energy through every season.', glowColor: 'from-yellow-300/30 to-orange-400/10' },
   { id: 26, iconName: 'Anchor', title: 'Steady Confidence', wish: 'Stay grounded in your values and proud of your gentle strength.', glowColor: 'from-blue-400/30 to-indigo-500/10' },
-  { id: 27, iconName: 'CloudSun', title: 'Gentle Breezes', wish: 'May every season of fifteen bring fresh hope and peaceful days.', glowColor: 'from-sky-300/30 to-amber-300/10' },
+  { id: 27, iconName: 'CloudSun', title: 'Gentle Breezes', wish: 'May every season of sixteen bring fresh hope and peaceful days.', glowColor: 'from-sky-300/30 to-amber-300/10' },
   { id: 28, iconName: 'Key', title: 'New Opportunities', wish: 'May exciting opportunities unlock right when you are ready for them.', glowColor: 'from-amber-400/30 to-purple-500/10' },
   { id: 29, iconName: 'Wand2', title: 'Everyday Magic', wish: 'Never lose your sense of wonder—magic lives in how you see the world.', glowColor: 'from-fuchsia-500/30 to-indigo-500/10' },
   { id: 30, iconName: 'PartyPopper', title: 'Always Celebrated', wish: 'Today and always, Mumu, you deserve to be celebrated with all our love!', glowColor: 'from-rose-500/30 to-yellow-400/10' },
@@ -263,20 +263,20 @@ export const TREASURE_WISHES: TreasureWish[] = [
 
 export const SECRET_LETTER_PARAGRAPHS: string[] = [
   'Dear Mumu,',
-  'Happy 15th Birthday! Reaching fifteen is such a special milestone—a bright moment where childhood wonder meets exciting new dreams, fresh confidence, and adventures that are all yours.',
-  'Watching you grow with such warmth, kindness, and quiet strength is something truly wonderful. You bring light into ordinary days just by being yourself—with your smile, your creativity, and your genuine heart.',
+  'Happy Sweet 16th Birthday! Reaching sixteen is such a magical milestone—a bright moment where wonder meets exciting new dreams, radiant confidence, and adventures that are all yours.',
+  'Watching you shine with such warmth, kindness, and quiet strength is one of my favorite things in the world. You bring light into ordinary days just by being yourself—with your smile, your creativity, and your loving heart.',
   'As you step into this new year of your life, remember to always believe in yourself. Even on days that feel challenging, you are stronger, smarter, and more capable than you know. Never shrink your dreams or dim your sparkle for anyone.',
-  'I hope fifteen brings you endless laughter with the people who care about you, exciting discoveries that inspire your heart, peaceful health, and memories you will smile back on for years to come.',
+  'I hope sixteen brings you endless laughter, exciting discoveries that inspire your heart, peaceful health, and unforgettable memories you will smile back on for years to come.',
   'May your days stay bright, your spirit stay fearless, and your future shine as wonderfully as you do.',
-  'With all the warmest birthday wishes,',
-  'Nihan 💖✨',
+  'With all my love and warmest birthday wishes,',
+  'Your love, Nihan 💖✨',
 ];
 
 export const BADGES: BadgeDef[] = [
   {
     id: 'welcome',
     title: 'Birthday Explorer',
-    description: 'Stepped into Mumu’s 15th Birthday Adventure.',
+    description: 'Stepped into Mumu’s 16th Birthday Adventure.',
     emoji: '🌟',
   },
   {
@@ -318,7 +318,7 @@ export const BADGES: BadgeDef[] = [
   {
     id: 'cake',
     title: 'Wish Maker',
-    description: 'Lit all 15 candles on Mumu’s birthday cake.',
+    description: 'Lit all 16 candles on Mumu’s birthday cake.',
     emoji: '🎂',
   },
   {
@@ -337,7 +337,7 @@ export const BADGES: BadgeDef[] = [
   {
     id: 'easter-signature',
     title: 'Hidden Sparkle Finder',
-    description: 'Found Nihan’s secret birthday note Easter egg!',
+    description: 'Found Nihan’s secret birthday love note Easter egg!',
     emoji: '🪄',
     isSecret: true,
   },

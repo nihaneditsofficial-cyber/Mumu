@@ -61,7 +61,7 @@ export const Level2Door: React.FC<Level2DoorProps> = ({
             <div className="flex h-full flex-col items-center justify-center p-5 text-slate-900">
               <Sparkles className="h-9 w-9 text-amber-600 animate-pulse" />
               <p className="font-display mt-3 text-xl font-bold text-rose-900">
-                Happy 15th, {PERSONALIZATION.name}!
+                Happy {PERSONALIZATION.age}th, {PERSONALIZATION.name}!
               </p>
               <p className="mt-2 text-xs leading-relaxed font-medium text-purple-950/85">
                 Welcome to a world built with sparkle, joy, and warm wishes just for you.
@@ -115,7 +115,7 @@ export const Level2Door: React.FC<Level2DoorProps> = ({
               A Royal Welcome for {PERSONALIZATION.name} ✨
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-purple-100/90 sm:text-base">
-              You just unlocked the doorway to your 15th birthday celebration! Behind this portal
+              You just unlocked the doorway to your {PERSONALIZATION.age}th birthday celebration! Behind this portal
               wait treasures, flying wishes, glowing stars, and a heartfelt letter from{' '}
               <span className="font-semibold text-pink-200">{PERSONALIZATION.createdBy}</span>.
               Take your time and enjoy every surprise!

@@ -100,13 +100,13 @@ export const Level10Finale: React.FC<Level10FinaleProps> = ({
         </h1>
 
         <p className="font-display mt-3 text-2xl font-semibold bg-gradient-to-r from-pink-300 via-amber-200 to-violet-300 bg-clip-text text-transparent sm:text-3xl">
-          Happy 15th Birthday, {PERSONALIZATION.name}!
+          Happy {PERSONALIZATION.age}th Birthday, {PERSONALIZATION.name}!
         </p>
 
         <div className="mx-auto mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-purple-50/95 sm:text-lg">
           <p>
             Today we celebrate everything that makes you so extraordinary, {PERSONALIZATION.name}.
-            As you step into 15, may your life overflow with{' '}
+            As you step into {PERSONALIZATION.age}, may your life overflow with{' '}
             <span className="font-semibold text-pink-200">boundless happiness</span>,{' '}
             <span className="font-semibold text-amber-200">proud success</span>, and{' '}
             <span className="font-semibold text-emerald-200">vibrant good health</span>.

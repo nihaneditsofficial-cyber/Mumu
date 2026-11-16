@@ -42,7 +42,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
         </div>
 
         <p className="text-xs font-medium tracking-widest text-pink-200/80 uppercase">
-          A Magical 15th Birthday Surprise
+          A Magical 16th Birthday Surprise
         </p>
         <h1 className="font-display mt-2 text-2xl font-bold text-white sm:text-3xl">
           Preparing {PERSONALIZATION.name}’s Adventure

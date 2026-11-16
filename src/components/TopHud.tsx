@@ -44,7 +44,7 @@ export const TopHud: React.FC<TopHudProps> = ({
           className="group flex items-center gap-2 text-left whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-400 rounded-lg px-1 py-0.5"
         >
           <span className="font-display text-base font-bold tracking-tight text-white sm:text-lg group-hover:text-pink-200 transition-colors">
-            {PERSONALIZATION.name} · 15
+            {PERSONALIZATION.name} · {PERSONALIZATION.age}
           </span>
           <span className="hidden sm:inline text-xs text-purple-200/70">
             by {PERSONALIZATION.createdBy}

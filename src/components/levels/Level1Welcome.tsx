@@ -88,7 +88,7 @@ export const Level1Welcome: React.FC<Level1WelcomeProps> = ({
         </div>
 
         <p className="text-xs font-semibold tracking-[0.2em] text-pink-200/90 uppercase sm:text-sm">
-          Chapter 01 · A Special 15th Birthday Quest
+          Chapter 01 · A Special {PERSONALIZATION.age}th Birthday Quest
         </p>
 
         <h1 className="font-display mt-3 text-4xl font-bold tracking-tight text-white sm:text-6xl text-balance">

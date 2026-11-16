@@ -232,7 +232,7 @@ export const Level7Treasure: React.FC<Level7TreasureProps> = ({
               }}
               className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-pink-500 via-fuchsia-500 to-amber-400 px-8 py-4 text-sm font-bold text-white shadow-xl shadow-pink-500/30 transition-transform hover:scale-[1.03] sm:text-base"
             >
-              <span>Light the 15th Birthday Cake</span>
+              <span>Light the {PERSONALIZATION.age}th Birthday Cake</span>
               <ArrowRight className="h-4 w-4" />
             </button>
           </div>
